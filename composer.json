@@ -1,0 +1,24 @@
+{
+    "name": "sidox/framework",
+    "description": "Framework for small projects",
+    "type": "Framework",
+    "license": "MIT",
+    "keywords": ["framework"],
+    "homepage": "https://github.com/pol292/sidox-framework",
+    "authors": [
+        {
+            "name": "Pol",
+            "email": "pol292@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sidox\\Core\\": "Sidox/System/Core",
+            "App\\": "Sidox/Application"
+        }
+    },
+    "config": {
+        "vendor-dir": "Sidox/vendor"
+    },
+    "require": {}
+}
